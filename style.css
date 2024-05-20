@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: #d4ebf9;
+}
+
 .navBar{
     height: 60px;
     background-color: #131921;
@@ -51,11 +55,17 @@ p{
 
 .nav-search{
     margin-left: 5px;
-    height: 50px;
+    margin-top: 5px;
+    height: 40px;
     width: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.nav-search:hover{
+    border: 3px solid orange;
+    border-radius: 7px;
 }
 
 .search-select{
@@ -168,6 +178,7 @@ p{
 .cart-name{
     font-size: 1rem;
     font-weight: 600;
+    margin-left: 4px;
 }
 
 .border{
@@ -177,4 +188,91 @@ p{
 .border:hover{
     border: 2px solid white;
     border-radius: 2%;
+}
+
+.panel{
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.panel-all{
+    height: 80%;
+    width: auto;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: centre;
+    color: #f3f3f3;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.all-name{
+    margin-left: 4px;
+    font-weight: 600;
+}
+
+.panel-opt{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.opt-name{
+    height: 80%;
+    width: auto;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: centre;
+    color: #f3f3f3;
+    padding-left: 9px;
+    padding-right: 9px;
+
+    margin-left: 4px;
+}
+
+.panel-end{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section{
+    height: 600px;
+    background-image: url("heroSection.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-note{
+    width: 95%;
+    height: 40px;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.hero-note p{
+    font-size: 0.85rem;
+    /* font-weight: 600; */
+}
+
+.hero-note a{
+    color:#007185;
+}
+
+.box {
+    border: 2px solid black;
+    height: 200px;
+    display: flex ;
 }
