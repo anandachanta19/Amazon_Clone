@@ -243,13 +243,19 @@ p{
     align-items: center;
 }
 
-.hero-section{
-    height: 600px;
+main{
     background-image: url("heroSection.jpg");
-    background-size: cover;
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section{
+    height: auto;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .hero-note{
@@ -259,7 +265,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 300px;
+    margin-top: 260px;
 }
 
 .hero-note p{
@@ -271,8 +277,64 @@ p{
     color:#007185;
 }
 
-.box {
-    border: 2px solid black;
-    height: 200px;
+.shop-section{
+    width: 95%;
     display: flex ;
+    align-self: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+.box {
+    height: 400px;
+    width: 340px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.section-title{
+    width: 80%;
+    height: auto;
+    font-size: 21px;
+    color: black;
+    font-weight: 700;
+}
+
+.section-choices{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+}
+
+.section-single{
+    width: 80%;
+    height: 300px;
+    background-image: url("CPU.jpg");
+    background-size: contain;
+}
+
+.img p{
+    color: black;
+    margin-top: 10px;
+}
+
+.section-seemore{
+    width: 80%;
+    height: auto;
+}
+
