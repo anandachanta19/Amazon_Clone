@@ -336,3 +336,141 @@ main{
     height: auto;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.footer-top{
+    width: 100%;
+    height: 50px;
+    background-color:#37475A;
+    color: #f3f3f3;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-top:hover{
+    background-color:#465971;
+}
+
+.footer-main{
+    width: 100%;
+    height: 575px;
+    background-color: #232F3E;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-columns{
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 0.8px solid rgb(149, 149, 149, 0.6);
+}
+
+.column{
+    width: 18%;
+    height: 80%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column-name{
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-columns ul{
+    padding-inline-start: 0;
+}
+
+.main-columns li{
+    list-style-type: none;
+    padding-inline-start: 0;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.name-list{
+    width: 100%;
+    display:flex;
+    align-items: flex-start;
+}
+
+.main-row{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-row img{
+    width: 8%;
+    height: 45%;
+    background-color: #232F3E;
+}
+
+.rows{
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #232F3E;
+    color: #ffffff;
+    margin-left: 20px;
+    border: 2px solid white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.rows i{
+    padding-right: 15px;
+}
+
+.wfeswrg{
+    margin-right: 15px;
+}
+
+.footer-end{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: #131A22;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-end ul{
+    display: flex;
+    list-style-type: none;
+    color: #ffffff;
+    padding-inline-start: 0px;
+    font-size: small;
+}
+
+.footer-end li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: small;
+    margin-top: 5px;
+}
